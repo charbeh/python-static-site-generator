@@ -1,6 +1,6 @@
 import re
 
-from collections import Mapping
+from collections.abc import Mapping
 from yaml import FullLoader, load
 
 class Content(Mapping):
